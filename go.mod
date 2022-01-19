@@ -38,20 +38,18 @@ require (
 
 require github.com/SherClockHolmes/webpush-go v1.1.3
 
-require github.com/twilio/twilio-go v0.19.0
-
 require (
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-test/deep v1.0.4 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
-	github.com/golang/mock v1.6.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/oschwald/maxminddb-golang v1.8.0 // indirect
 	github.com/tklauser/numcpus v0.2.2 // indirect
 	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
 	golang.org/x/sys v0.0.0-20211019181941-9d821ace8654 // indirect
+	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
