@@ -39,6 +39,8 @@ github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible h1:Y6sqxHMyB1D2YSzWkL
 github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible/go.mod h1:ZQnN8lSECaebrkQytbHj4xNgtg8CR7RYXnPok8e0EHA=
 github.com/lestrrat-go/strftime v1.0.4 h1:T1Rb9EPkAhgxKqbcMIPguPq8glqXTA1koF8n9BHElA8=
 github.com/lestrrat-go/strftime v1.0.4/go.mod h1:E1nN3pCbtMSu1yjSVeyuRFVm/U0xoR76fd03sz+Qz4g=
+github.com/mailjet/mailjet-apiv3-go v0.0.0-20201009050126-c24bc15a9394 h1:+6kiV40vfmh17TDlZG15C2uGje1/XBGT32j6xKmUkqM=
+github.com/mailjet/mailjet-apiv3-go v0.0.0-20201009050126-c24bc15a9394/go.mod h1:ogN8Sxy3n5VKLhQxbtSBM3ICG/VgjXS/akQJIoDSrgA=
 github.com/mattn/go-sqlite3 v1.14.7/go.mod h1:NyWgC/yNuGj7Q9rpYnZvas74GogHl5/Z4A/KQRfk6bU=
 github.com/mattn/go-sqlite3 v1.14.10 h1:MLn+5bFRlWMGoSRmJour3CL1w/qL96mvipqpwQW/Sfk=
 github.com/mattn/go-sqlite3 v1.14.10/go.mod h1:NyWgC/yNuGj7Q9rpYnZvas74GogHl5/Z4A/KQRfk6bU=
