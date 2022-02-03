@@ -39,6 +39,7 @@ func Restore(backupFile string, databaseFile string) error {
 
 	rawSQL := b.String()
 
+	// nolint:gosec
 	if _, err := os.Create(databaseFile); err != nil {
 		return errors.New("unable to write restored database")
 	}

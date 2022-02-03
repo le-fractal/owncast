@@ -4,6 +4,7 @@ import "os"
 
 // WritePlaylist writes the playlist to disk.
 func WritePlaylist(data string, filePath string) error {
+	// nolint:gosec
 	f, err := os.Create(filePath)
 	if err != nil {
 		return err
