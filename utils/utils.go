@@ -11,6 +11,7 @@ import (
 	"path"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/mssola/user_agent"
 	log "github.com/sirupsen/logrus"
@@ -321,10 +322,18 @@ func GetHostnameFromURL(u url.URL) string {
 // GetHostnameFromURLString will return the hostname component from a URL object.
 func GetHostnameFromURLString(s string) string {
 	u, err := url.Parse(s)
-
 	if err != nil {
 		return ""
 	}
 
 	return u.Host
+}
+
+// ShuffleStringSlice will shuffle a slice of strings.
+func ShuffleStringSlice(s []string) []string {
+	rand.Seed(time.Now().UnixNano())
+	rand.Shuffle(len(s), func(i, j int) {
+		s[i], s[j] = s[j], s[i]
+	})
+	return s
 }
