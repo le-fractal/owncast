@@ -45,6 +45,10 @@ export default class ChatMessageView extends Component {
   render() {
     const { message, isModerator, accessToken } = this.props;
     const { user, timestamp } = message;
+
+    if (!user) {
+      return null;
+    }
     const { displayName, displayColor, createdAt } = user;
     const isAuthorModerator = checkIsModerator(message);
 
