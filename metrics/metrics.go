@@ -12,8 +12,6 @@ type CollectedMetrics struct {
 	CPUUtilizations  []timestampedValue `json:"cpu"`
 	RAMUtilizations  []timestampedValue `json:"memory"`
 	DiskUtilizations []timestampedValue `json:"disk"`
-
-	Viewers []timestampedValue `json:"-"`
 }
 
 // Metrics is the shared Metrics instance.
