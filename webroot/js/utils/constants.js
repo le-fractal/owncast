@@ -26,8 +26,8 @@ export const TEMP_IMAGE =
 
 export const OWNCAST_LOGO_LOCAL = '/img/logo.svg';
 
-export const MESSAGE_OFFLINE = 'Stream is offline.';
-export const MESSAGE_ONLINE = 'Stream is online.';
+export const MESSAGE_OFFLINE = 'Le stream est hors-ligne.';
+export const MESSAGE_ONLINE = 'Diffusion en cours…';
 
 export const URL_OWNCAST = 'https://owncast.online'; // used in footer
 export const PLAYER_VOLUME = 'owncast_volume';
@@ -39,9 +39,9 @@ export const KEY_CUSTOM_USERNAME_SET = 'owncast_custom_username_set';
 export const KEY_CHAT_DISPLAYED = 'owncast_chat';
 export const KEY_CHAT_FIRST_MESSAGE_SENT = 'owncast_first_message_sent';
 export const CHAT_INITIAL_PLACEHOLDER_TEXT =
-  'Type here to chat, no account necessary.';
+  'Écrivez ici pour participer !';
 export const CHAT_PLACEHOLDER_TEXT = 'Message';
-export const CHAT_PLACEHOLDER_OFFLINE = 'Chat is offline.';
+export const CHAT_PLACEHOLDER_OFFLINE = 'La discussion est hors-ligne.';
 export const CHAT_MAX_MESSAGE_LENGTH = 500;
 export const EST_SOCKET_PAYLOAD_BUFFER = 512;
 export const CHAT_CHAR_COUNT_BUFFER = 20;

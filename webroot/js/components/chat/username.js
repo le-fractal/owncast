@@ -145,7 +145,7 @@ export default class UsernameForm extends Component {
             type="button"
             class="bg-blue-500 hover:bg-blue-700 text-white text-xs uppercase p-1 mx-1 rounded cursor-pointer user-btn"
           >
-            Update
+            Modifier
           </button>
 
           <button

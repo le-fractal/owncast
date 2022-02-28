@@ -93,7 +93,7 @@ export default function Message(props) {
     const { displayName } = user;
     const contents = html`
       <div>
-        <span class="font-bold">${oldName}</span> is now known as ${' '}
+        <span class="font-bold">${oldName}</span> s'appelle maintenant ${' '}
         <span class="font-bold">${displayName}</span>.
       </div>
     `;
@@ -111,7 +111,7 @@ export default function Message(props) {
 
     const contents = html`<div>
       <span class="font-bold">${messageAuthorFlair}${displayName}</span>
-      ${' '}joined the chat.
+      ${' '}est là!
     </div>`;
     return html`<${SystemMessage} contents=${contents} />`;
   } else if (type === SOCKET_MESSAGE_TYPES.CHAT_ACTION) {
