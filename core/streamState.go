@@ -68,7 +68,7 @@ func setStreamAsConnected(rtmpOut *io.PipeReader) {
 	go webhooks.SendStreamStatusEvent(models.StreamStarted)
 	transcoder.StartThumbnailGenerator(segmentPath, data.FindHighestVideoQualityIndex(_currentBroadcast.OutputSettings))
 
-	_ = chat.SendSystemAction("La diffusion commence !", true)
+	_ = chat.SendSystemAction("Le stream commence !", true)
 	chat.SendAllWelcomeMessage()
 
 	// Send a delayed live Federated message.
@@ -79,7 +79,7 @@ func setStreamAsConnected(rtmpOut *io.PipeReader) {
 
 // SetStreamAsDisconnected sets the stream as disconnected.
 func SetStreamAsDisconnected() {
-	_ = chat.SendSystemAction("La diffusion se termine.", true)
+	_ = chat.SendSystemAction("Le stream se termine.", true)
 
 	now := utils.NullTime{Time: time.Now(), Valid: true}
 	if _onlineTimerCancelFunc != nil {

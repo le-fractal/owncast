@@ -27,7 +27,7 @@ export const TEMP_IMAGE =
 export const OWNCAST_LOGO_LOCAL = '/img/logo.svg';
 
 export const MESSAGE_OFFLINE = 'Le stream est hors-ligne.';
-export const MESSAGE_ONLINE = 'Diffusion en cours…';
+export const MESSAGE_ONLINE = 'Le stream est en ligne.';
 
 export const URL_OWNCAST = 'https://owncast.online'; // used in footer
 export const PLAYER_VOLUME = 'owncast_volume';

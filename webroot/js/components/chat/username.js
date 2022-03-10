@@ -153,7 +153,7 @@ export default class UsernameForm extends Component {
             onClick=${this.handleHideForm}
             type="button"
             class="bg-gray-900 hover:bg-gray-800 py-1 px-2 mx-1 rounded cursor-pointer user-btn text-white text-xs uppercase text-opacity-50"
-            title="cancel"
+            title="Annuler"
           >
             X
           </button>

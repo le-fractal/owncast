@@ -717,7 +717,7 @@ export default class App extends Component {
     let viewerCountMessage = '';
     if (streamOnline && viewerCount > 0) {
       viewerCountMessage = html`${viewerCount}
-      ${pluralize(' participant', viewerCount)}`;
+      ${pluralize(' viewer', viewerCount)}`;
     } else if (lastDisconnectTime) {
       viewerCountMessage = makeLastOnlineString(lastDisconnectTime);
     }

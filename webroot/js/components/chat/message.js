@@ -111,7 +111,7 @@ export default function Message(props) {
 
     const contents = html`<div>
       <span class="font-bold">${messageAuthorFlair}${displayName}</span>
-      ${' '}est là!
+      ${' '}est là !
     </div>`;
     return html`<${SystemMessage} contents=${contents} />`;
   } else if (type === SOCKET_MESSAGE_TYPES.CHAT_ACTION) {
