@@ -167,12 +167,12 @@ export function makeLastOnlineString(timestamp) {
       hour: '2-digit',
       minute: '2-digit',
     });
-    string = `Today ${atTime}`;
+    string = `Aujourd'hui ${atTime}`;
   } else {
     string = time.toLocaleDateString();
   }
 
-  return `Last live: ${string}`;
+  return `Dernier direct : ${string}`;
 }
 
 // Routing & Tabs
